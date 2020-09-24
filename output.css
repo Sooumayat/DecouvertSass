@@ -1,0 +1,50 @@
+body {
+  padding: 1px 0;
+  border: 1px solid purple;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+#entete {
+  background-color: #FF9900;
+  text-align: center;
+}
+
+#main {
+  max-width: 960px;
+  margin: auto;
+}
+
+#menu {
+  float: left;
+  width: 240px;
+  background-color: #FF3366;
+  list-style-type: none;
+}
+
+#menu ul {
+  list-style: none;
+}
+#menu a {
+  text-decoration: none;
+  color: yellow;
+}
+#menu a:hover {
+  color: black;
+}
+
+#contenu {
+  margin-left: 245px;
+  background-color: #9966FF;
+}
+
+#footer {
+  background-color: #669933;
+  text-align: center;
+  clear: both;
+}
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,17 @@
+$primary-white: white
+$font: 'Bebas Neue', cursive
+
+%command
+  padding: 1px 0
+  border : 1px solid purple
+
+body
+  font-family: $font
+  color: $primary-white
+  @extend %command
+
+@import 'entete_partial.sass'
+
+@import 'main_menu.sass'
+
+@import 'footer.sass'
